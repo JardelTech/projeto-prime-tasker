@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PrimeTasker</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="topo">
+      <div class="logo"><img src="images/primetaskerlogo.png" /></div>
+      <div class="textotopo">
+        <a href="paginalogin.html">
+          ENTRAR
+          <i class="bx bxs-user"></i>
+        </a>
+        <a href=""
+          >SOBRE NÓS
+          <i class="bx bxs-info-circle"></i>
+        </a>
+      </div>
+    </div>
+
+    <div class="adicionartarefas">
+      <div class="blocoprincipal">
+        <textarea id="blocodenotas" placeholder="Digite algo.."></textarea>
+      </div>
+      <div class="botaotarefanova">
+        <button
+          type="button"
+          class="btntarefas"
+          id="btntarefa"
+          onclick="salvarnota()"
+        >
+          SALVAR
+        </button>
+        <div class="sinalizador" id="erros"></div>
+      </div>
+    </div>
+
+    <div class="tarefas">
+      <h1>SEUS PROJETOS:</h1>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
