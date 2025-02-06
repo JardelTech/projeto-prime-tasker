@@ -2,11 +2,11 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; /* Garante que padding e borda não alterem o tamanho total do elemento */
+  box-sizing: border-box;
 }
 
 body {
-  margin: 0; /* Remove margem do body */
+  margin: 0;
 }
 
 .topo {
@@ -24,7 +24,7 @@ body {
 .textotopo {
   position: absolute;
   margin-top: -150px;
-  margin-left: 1700px;
+  margin-left: 1400px;
 }
 .textotopo a {
   text-decoration: none;
@@ -122,6 +122,6 @@ body {
 }
 @media (max-width: 1800px) {
   .textotopo {
-    margin-left: 1300px;
+    margin-left: 1000px;
   }
 }
